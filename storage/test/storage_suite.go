@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/index"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage"
+	"github.com/jacobdrury/go-git/config"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/plumbing/format/index"
+	"github.com/jacobdrury/go-git/plumbing/storer"
+	"github.com/jacobdrury/go-git/storage"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

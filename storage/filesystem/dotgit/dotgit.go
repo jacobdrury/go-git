@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/hash"
-	"github.com/go-git/go-git/v5/storage"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/plumbing/hash"
+	"github.com/jacobdrury/go-git/storage"
+	"github.com/jacobdrury/go-git/utils/ioutil"
 
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/helper/chroot"

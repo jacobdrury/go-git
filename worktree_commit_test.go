@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage/filesystem"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/plumbing/cache"
+	"github.com/jacobdrury/go-git/plumbing/object"
+	"github.com/jacobdrury/go-git/plumbing/storer"
+	"github.com/jacobdrury/go-git/storage/filesystem"
+	"github.com/jacobdrury/go-git/storage/memory"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/armor"

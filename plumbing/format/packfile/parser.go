@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/utils/ioutil"
-	"github.com/go-git/go-git/v5/utils/sync"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/plumbing/cache"
+	"github.com/jacobdrury/go-git/plumbing/storer"
+	"github.com/jacobdrury/go-git/utils/ioutil"
+	"github.com/jacobdrury/go-git/utils/sync"
 )
 
 var (

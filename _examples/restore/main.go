@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing/object"
+	"github.com/jacobdrury/go-git"
+	. "github.com/jacobdrury/go-git/_examples"
+	"github.com/jacobdrury/go-git/plumbing/object"
 )
 
 func prepareRepo(w *git.Worktree, directory string) {

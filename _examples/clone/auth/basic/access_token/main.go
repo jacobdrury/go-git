@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	git "github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing/transport/http"
+	git "github.com/jacobdrury/go-git"
+	. "github.com/jacobdrury/go-git/_examples"
+	"github.com/jacobdrury/go-git/plumbing/transport/http"
 )
 
 func main() {

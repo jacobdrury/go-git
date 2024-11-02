@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/color"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/plumbing/color"
+	"github.com/jacobdrury/go-git/plumbing/filemode"
 
 	. "gopkg.in/check.v1"
 )

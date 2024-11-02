@@ -4,9 +4,9 @@ import (
 	"bufio"
 	"os"
 
-	"github.com/go-git/go-git/v5/plumbing/format/index"
-	"github.com/go-git/go-git/v5/storage/filesystem/dotgit"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/jacobdrury/go-git/plumbing/format/index"
+	"github.com/jacobdrury/go-git/storage/filesystem/dotgit"
+	"github.com/jacobdrury/go-git/utils/ioutil"
 )
 
 type IndexStorage struct {

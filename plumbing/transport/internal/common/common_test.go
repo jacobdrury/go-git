@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-git/go-git/v5/plumbing/transport"
+	"github.com/jacobdrury/go-git/plumbing/transport"
 	. "gopkg.in/check.v1"
 )
 

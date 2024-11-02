@@ -15,8 +15,8 @@ import (
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/go-git/go-billy/v5/util"
 	fixtures "github.com/go-git/go-git-fixtures/v4"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/storage"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/storage"
 	"github.com/stretchr/testify/assert"
 	. "gopkg.in/check.v1"
 )

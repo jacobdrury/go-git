@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/go-git/go-billy/v5/util"
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/jacobdrury/go-git/plumbing"
 	. "gopkg.in/check.v1"
 )
 
@@ -394,4 +394,3 @@ func (s *ConfigSuite) TestUnmarshalRemotes(c *C) {
 	c.Assert(cfg.Remotes["origin"].URLs[0], Equals, "https://git.sr.ht/~mcepl/go-git")
 	c.Assert(cfg.Remotes["origin"].URLs[1], Equals, "git@git.sr.ht:~mcepl/go-git.git")
 }
-

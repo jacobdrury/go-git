@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/jacobdrury/go-git"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/plumbing/object"
+	"github.com/jacobdrury/go-git/storage/memory"
 
 	"github.com/go-git/go-billy/v5/memfs"
 	"github.com/go-git/go-billy/v5/util"

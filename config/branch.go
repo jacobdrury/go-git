@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	format "github.com/go-git/go-git/v5/plumbing/format/config"
+	"github.com/jacobdrury/go-git/plumbing"
+	format "github.com/jacobdrury/go-git/plumbing/format/config"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/jacobdrury/go-git/plumbing"
 
 	. "gopkg.in/check.v1"
 )

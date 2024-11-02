@@ -3,8 +3,8 @@ package object
 import (
 	"io"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/storer"
+	"github.com/jacobdrury/go-git/plumbing"
+	"github.com/jacobdrury/go-git/plumbing/storer"
 )
 
 // NewFilterCommitIter returns a CommitIter that walks the commit history,

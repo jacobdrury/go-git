@@ -5,8 +5,8 @@ import (
 	"crypto"
 	"strings"
 
-	commitgraph "github.com/go-git/go-git/v5/plumbing/format/commitgraph/v2"
-	"github.com/go-git/go-git/v5/plumbing/hash"
+	commitgraph "github.com/jacobdrury/go-git/plumbing/format/commitgraph/v2"
+	"github.com/jacobdrury/go-git/plumbing/hash"
 
 	. "gopkg.in/check.v1"
 )
